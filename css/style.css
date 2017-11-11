@@ -1,0 +1,625 @@
+
+* {
+    font-family: 'Poiret One', cursive;
+
+}
+
+.page-wrapper {
+     overflow-x: hidden;
+}
+#Div2 {
+
+display: block;
+
+opacity: 0.1;
+
+-webkit-transition: width 2s;
+
+}
+/*Navbar*/
+.navbar-brand {
+    font-size: 50px; margin-top: 10px; color: #3a3a3a; font-family: 'Poiret One', cursive;
+}
+.navbar-holder{
+width: 100%;
+z-index: 99999;
+top: 0;
+
+}
+.navbar-default .navbar-nav>li>a:hover:after {
+width: 100%;
+background: #FFA000;
+}
+.navbar-default .navbar-nav>li>a:after {
+content: '';
+display: block;
+height: 1px;
+width: 0;
+background: transparent;
+transition: width .2s ease, background-color .5s ease;
+}
+.navbar-default {
+	border-color: transparent;
+	background-color: #ffffff;
+	-webkit-box-shadow: 0px 1px 0px 0px rgb(222, 222, 222);
+    -moz-box-shadow: 0px 1px 0px 0px rgb(222, 222, 222);
+    box-shadow: 0px 1px 0px 0px rgb(222, 222, 222);
+}
+.navbar{
+	border-radius: 0px;
+	height: 90px;
+    margin-bottom: 0px;
+}
+
+.navbar-collapse {
+	margin-top: 10px !important;
+	background: white;
+}
+.navbar-toggle {
+	margin-top: 25px;
+}
+.navbar-nav {
+	text-align: center;
+	color: #FFA000;
+	margin-top: 8px; margin-right: 10px
+}
+.navbar-default .navbar-nav>li>a {
+	color: #000;
+    font-size: 20px;
+    display: inline-block;
+}
+.navbar-default .navbar-nav>li>a:hover {
+	color: #FFA000;
+}
+.navbar-default .navbar-collapse {
+	   border-color: transparent;
+	   margin-left: -20px;
+       margin-right: -20px;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	background-color: transparent;
+}
+.navbar-default .navbar-toggle {
+	border-color: transparent;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	    background-color: #FFA000;
+}
+
+/*Side Nav*/
+/* The side navigation menu */
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+/* The navigation menu links */
+.sidenav a {
+     padding: 8px 8px 8px 8px;
+    font-size: 18px;
+    color: #FFA000;
+    display: block;
+    transition: 0.3s;
+    text-align: center;
+}
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  
+}
+
+.futer-marg {margin-top: -156px}
+.custom-nav-ic {
+	    font-size: 28px;
+    color: #FFA000;
+    position: absolute;
+    right: 30px;
+    top: 28px;
+}
+.nav-ic {
+	display: none;
+}
+.nav-btn {
+    color: #008dd2;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.nav-btn:hover {
+	color:#0071a9;
+    
+}
+/*End*/
+/*Nav Bar End*/
+
+.bluespace {
+  background: #FFA000;
+
+}
+.btn-ghost {
+    color: #ffc665;
+    background-color: #ffc665;
+    border-color: #ffc665;
+}
+.btn-ghost:hover {
+    color: #ffc665;
+    background-color: #ffffff;
+    border-color:#ffc665;
+}
+.bluebox-heaedr {
+  color: #fff; 
+  text-align: center; 
+  margin-top: 22px;
+  text-transform: uppercase;
+}
+.bluespace-circle {
+    font-size: 45px;
+    padding: 13px;
+    width: 100px;
+    height: 100px;
+    border: 6px solid;
+    border-radius: 63px;
+    background: #fff;
+    color: #ffc665;
+    margin: auto;
+}
+.bluespace i {
+  margin-top: 7px;
+}
+.normal-header{
+  text-transform: uppercase;
+}
+.btn-special-war {
+    color: #ffa000;
+    background-color: #ffffff;
+    border-color: #eea236;
+    border-radius: 34px;
+    padding: 10px 27px;
+    font-size: 21px;
+    transition: background-color 0.5s ease;
+}
+.btn-special-war:hover {
+    color: #fff;
+    background-color: #ffa000;
+    border-color: #e08b11;
+
+}
+#container {
+    min-width: 310px;
+    max-width: 800px;
+    height: 100%;
+    margin: 0 auto
+}
+
+/*
+
+================================
+
+Footer - Social
+
+================================
+
+*/
+
+
+
+.footer-social {
+
+    width: 100%;
+
+    height: auto;
+
+    padding: 20px 0;
+
+    background: #008dd2;
+
+}
+
+
+
+.footer-social .item ul {
+
+    margin-bottom: 0;
+
+    text-align: center;
+
+}
+
+
+
+.footer-social .item ul li {
+
+    list-style-type: none;
+
+    display: inline-block;
+
+    margin-right: 5px;
+
+    background: #008dd2;
+
+}
+
+
+
+.footer-social .item ul li a {
+
+    color: #fff;
+
+    text-align: center;
+
+    display: block;
+
+    width: 42px;
+
+    height: 42px;
+
+    line-height: 42px;
+
+    border: 2px solid #008dd2;
+
+    border-radius: 4px;
+
+    -webkit-border-radius: 4px;
+
+    -moz-border-radius: 4px;
+
+    font-size: 20px;
+
+}
+
+
+
+.footer-social .item ul li:hover a {
+
+    border: 2px solid #fff!important;
+
+}
+
+
+
+/*
+
+================================
+
+Footer
+
+================================
+
+*/
+
+
+
+.footer-main {
+
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+    background: #ffa000;
+    border-top: 3px solid #ffa000;
+
+}
+
+
+
+.footer-col h3  {
+font-size: 24px;
+    font-family: 'Raleway';
+    color: #fff;
+    margin-bottom: 20px;
+
+    position: relative;
+
+    padding-bottom: 15px;
+
+    margin-bottom: 25px;
+
+}
+
+
+
+.footer-col h3:after {
+
+    content: "";
+
+    position: absolute;
+
+    width: 50px;
+
+    background: #fff;
+
+    left: 0;
+
+    bottom: 0;
+
+    height: 3px;
+
+}
+
+
+
+.footer-col p {
+
+    color: #fff;
+
+    font-size: 13px;
+
+    line-height: 22px;
+
+}
+
+
+
+.footer-col ul li,
+
+.footer-col ul li a {
+
+    color: #fff;
+
+    font-size: 20px;
+    padding-left: 10px;
+    line-height: 22px;
+
+    -webkit-transition: all 0.4s ease 0s;
+
+    -moz-transition: all 0.4s ease 0s;
+
+    -o-transition: all 0.4s ease 0s;
+
+    transition: all 0.4s ease 0s;
+
+}
+
+
+
+.footer-col ul li {
+
+    list-style-type: none;
+    margin-bottom: 10px;
+    position: relative;
+    padding: 5px 32px;
+    border: 1px solid;
+    border-radius: 25px;
+    cursor: pointer;
+
+}
+.footer-col ul li i {
+
+   margin-right: 10px;
+
+}
+
+
+.footer-col ul li:hover {
+    background: #fff;
+    color: #ffa000;
+}
+
+
+
+
+
+.footer-col ul li a:hover {
+
+    color: #008dd2;
+
+}
+
+
+
+.footer-col .news-item {
+
+    color: #008dd2;
+
+    padding-bottom: 15px;
+
+    margin-bottom: 15px;
+
+    border-bottom: 1px dashed #676666;
+
+}
+
+
+
+.footer-col .news-item:last-child {
+
+    border-bottom: 0;
+
+    padding-bottom: 0;
+
+    margin-bottom: 0;
+
+}
+
+
+
+.footer-col .news-item .news-title {
+
+    font-size: 13px;
+
+    line-height: 22px;
+
+}
+
+
+
+.footer-col .news-item .news-title a {
+
+        color: #ffffff;
+
+    -webkit-transition: all 0.4s ease 0s;
+
+    -moz-transition: all 0.4s ease 0s;
+
+    -o-transition: all 0.4s ease 0s;
+
+    transition: all 0.4s ease 0s;
+
+}
+
+
+
+.footer-col .news-item .news-title a:hover {
+
+    color: #fff;
+
+} 
+
+
+
+.footer-col .news-item .news-date {
+
+    color: #b5b5b5;
+
+    font-size: 12px;
+
+    margin-top: 10px;
+
+}
+
+
+
+.footer-col .news-item .news-date a {
+
+    color: #b5b5b5;
+
+}
+
+
+
+.footer-col .contact-item {
+
+    color: #fff;
+
+    font-size: 13px;
+
+    overflow: hidden;
+
+    margin-bottom: 10px;
+
+}
+
+
+
+.footer-col .contact-item .icon {
+
+    float: left;
+
+    font-size: 16px;
+
+    margin-right: 10px;
+
+}
+
+
+
+.footer-col .contact-item .text {
+
+    float: left;
+
+    line-height: 22px;
+
+}
+
+
+
+/*
+
+================================
+
+Footer - Bottom
+
+================================
+
+*/
+
+
+
+.footer-bottom {
+
+    width: 100%;
+
+    height: auto;
+
+    background: #c17900;
+
+    padding: 15px 0 15px 0;
+
+}
+
+
+
+.copyright {
+
+    font-size: 13px;
+
+    color: #fff;
+
+}
+
+
+
+.footer-menu {
+
+    float: right;
+
+}
+
+
+
+.footer-menu ul {
+
+    float: right;
+
+}
+
+
+
+.footer-menu ul li {
+
+    float: left;
+
+    list-style-type: none;
+
+    margin-left: 20px;
+
+}
+
+
+
+
+.special-footer-link {
+    display: inline-block;
+    color: #fff;
+    padding: 0px 10px;
+    font-size: 20px;
+}
+.banner{
+    height: 600px; 
+    overflow: hidden;
+}

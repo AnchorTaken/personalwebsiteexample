@@ -1,0 +1,8 @@
+@media (max-width: 900px) {
+	.banner{
+		height: 100%;
+	}
+	.navbar-brand{
+		    font-size: 199%;
+	}
+}
